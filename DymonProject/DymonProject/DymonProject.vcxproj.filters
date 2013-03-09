@@ -74,6 +74,8 @@
     <None Include="MarketConvention_test.csv">
       <Filter>TestData</Filter>
     </None>
+    <None Include="LiborRate.csv" />
+    <None Include="CcyPair.csv" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -348,6 +350,9 @@
     </ClInclude>
     <ClInclude Include="TestManager.h">
       <Filter>Header Files\dymon.test</Filter>
+    </ClInclude>
+    <ClInclude Include="DepositPricer.h">
+      <Filter>Header Files\dymon.pricer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

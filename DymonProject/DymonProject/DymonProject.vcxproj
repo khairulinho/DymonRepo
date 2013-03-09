@@ -20,14 +20,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -79,12 +79,14 @@
   <ItemGroup>
     <None Include="BondFuturePrice.csv" />
     <None Include="BondRate.csv" />
+    <None Include="CcyPair.csv" />
     <None Include="DepositRate.csv" />
     <None Include="DepositRate_test.csv" />
     <None Include="FXForward.csv" />
     <None Include="FXSkew.csv" />
     <None Include="holiday.txt" />
     <None Include="instance.properties" />
+    <None Include="LiborRate.csv" />
     <None Include="MarketConvention.csv" />
     <None Include="MarketConvention_test.csv" />
     <None Include="SwapRate.csv" />
@@ -122,6 +124,7 @@
     <ClInclude Include="Constants.h" />
     <ClInclude Include="CubicSplineInterpolator.h" />
     <ClInclude Include="Deposit.h" />
+    <ClInclude Include="DepositPricer.h" />
     <ClInclude Include="ForwardCurveBuilder.h" />
     <ClInclude Include="Future.h" />
     <ClInclude Include="FuturePricer.h" />
