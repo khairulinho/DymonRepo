@@ -3,8 +3,11 @@
 #define CCYPAIR_H
 #include <string>
 #include "Enums.h"
+#include "AbstractInstrument.h"
 
-using namespace std;
+using namespace instruments;
+
+//using namespace std;
 
 namespace utilities {
 	class CcyPair {
@@ -20,6 +23,7 @@ namespace utilities {
 		void setCCY1(std::string ccy1){_ccy1 = ccy1;}
 		void setCCY2(std::string ccy2){_ccy2 = ccy2;}
 		void setCcyPairStr(std::string ccyPairStr);
+		void setDeltaType(enums::DeltaType DeltaType){enums::DeltaType _deltaType = DeltaType;}
 		std::string getCCY1(){return _ccy1;}
 		std::string getCCY2(){return _ccy2;}
 

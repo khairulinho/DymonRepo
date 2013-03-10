@@ -354,6 +354,9 @@
     <ClInclude Include="DepositPricer.h">
       <Filter>Header Files\dymon.pricer</Filter>
     </ClInclude>
+    <ClInclude Include="CcyPairFileSource.h">
+      <Filter>Header Files\dymon.persistence</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -555,6 +558,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CcyPairFileSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
